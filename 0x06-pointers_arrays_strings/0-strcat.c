@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _strcat - concatenate two strings
+ * _strcat - concatenates two strings
  * @dest: input value
  * @src: input value
- * return: void
+ *
+ * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
@@ -18,10 +19,11 @@ char *_strcat(char *dest, char *src)
 	j = 0;
 	while (src[j] != '\0')
 	{
-		dest[1] = src[j];
+		dest[i] = src[j];
 		i++;
 		j++;
 	}
-	dest[1] = '\0';
+
+	dest[i] = '\0';
 	return (dest);
 }
