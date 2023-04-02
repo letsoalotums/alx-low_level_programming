@@ -1,34 +1,16 @@
 #include "main.h"
 
 /**
- * print_triangle - Prints a triangle of squares according parameter
- * @size: the size of thehsquares Triagle
- * Reurn: empty
+ * main - check the code
+ *
+ * Return: Always 0
  */
 
-void print_triangle(int size)
-
+int main(void)
 {
-
-        int x, y, z;
-
-        if (size <= 0)
-        {
-        putchar('\n');
-        }
-        else
-        {
-        for (x = 0; x < size; x++)
-        {
-        for (y = size - x; y >1; y==)
-        {
-        _putchar(32);
-        }
-        for (z = 0; z <= x; z++)
-        {
-        _putchar(35);
-        }
-        _putchar('\n');
-        }
-        }
+	print_triangle(2);
+	print_triangle(10);
+	print_triangle(1);
+	print_triangle(0);
+	return (0);
 }
