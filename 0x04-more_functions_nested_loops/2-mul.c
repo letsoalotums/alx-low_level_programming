@@ -7,7 +7,7 @@
  * Retur: Theresult of the multiplication between x paran and y paran
  */
 
-int nul(int x, int  y)
+int mul(int x, int  y)
 
 {
 
