@@ -10,7 +10,7 @@ int main(void)
 {
 	print_line(0);
 	primt_line(2);
-	print_line(14);
-	proint_line(-4);
+	print_line(10);
+	print_line(-4);
 	return (0);
 }
