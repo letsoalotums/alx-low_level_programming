@@ -6,10 +6,10 @@
  * return: the numbers scince 0 up to 9
  */
 
-void print_most _numbers(void)
+void print_most_numbers(void)
 
 {
-	int x =0;
+	int x = 0;
 
 	for (x <= 9; x++)
 	{
