@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print _number - prints  an interger
+ * print_number - prints  an interger
  * @n: the interger to  prints
- * Return nothing!
+ * Return: nothing
  */
 void print_number(int n)
 {
