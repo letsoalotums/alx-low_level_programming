@@ -14,9 +14,9 @@ int main(void)
 	long number = 612852475143;
 	double square = sqrt(number);
 
-	for (x = i; x <= square; x++)
+	for (x = 1; x <= square; x++)
 	{
-	if (number % x ==0)
+	if (number % x == 0)
 	{
 	maxf = number / x;
 	}
